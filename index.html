@@ -55,6 +55,24 @@
 <body>
   <div id="bouncerForm">
     <!-- put the form in here -->
+    <form id="form" action="#">
+      <div>
+        <label for="bouncerCount">Number of Bouncers:</label>
+        <input type="number" id="bouncerCount" min="1" placeholder="Number" required>
+      </div>
+      <div>
+        <label for="bouncerText">Bouncer Text:</label>
+        <input type="text" id="bouncerText" placeholder="Enter text" required>
+      </div>
+      <div>
+        <label for="bouncerColor">Bouncer Color:</label>
+        <input type="color" id="bouncerColor" value="#FF0000" required>
+      </div>
+
+      <div>
+        <button type="submit">Start</button>
+      </div>
+    </form>
   </div>
   
   <script>
